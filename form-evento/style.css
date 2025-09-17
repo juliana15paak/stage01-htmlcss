@@ -78,9 +78,9 @@ fieldset legend {
   margin-left: 12px;
   font-size: 12px;
   line-height: 20px;
-  color: #C1BCCC;
+  color: #6c6a71;
 }
-.input-wrapper input, .input-wrapper textarea {
+.input-wrapper input, .input-wrapper textarea, .input-wrapper select {
   background: #FAFAFC;
   border: 1px solid #E6E6F0;
   border-radius: 8px;
@@ -94,6 +94,8 @@ fieldset legend {
   padding: 0px;
   height: 168px;
 }
-.input-wrapper input::placeholder {
-  color: #C1BCCC;
+.input-wrapper select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
